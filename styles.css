@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #6bd69b;
+}
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 18px;
+    text-align: center;
+}
+button {
+    padding: 10px;
+    cursor: pointer;
+    margin: 5px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+button:hover {
+    background: #0056b3;
+}
+label {
+    display: block;
+    margin: 5px 0;
+}
+input[type="range"] {
+    width: 100%;
+}
+#password {
+    width: calc(100% - 20px); /* Чтобы учесть внутренние отступы */
+    padding: 10px;
+    margin: 10px auto; /* Выравнивание по центру */
+    font-size: 25px;
+    text-align: center;
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    background: #f8f8f8;
+    font-weight: bold;
+    display: block; /* Обеспечивает центрирование через margin auto */
+}
+
